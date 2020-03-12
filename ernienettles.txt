@@ -27,7 +27,7 @@ https://codepen.io/ernie-nettles/pen/wvapLve?editors=1100
             divs and sections
 
     9. How many times can I use the same id on a page? 
-            never
+            An ID should only be used once.
 
     10. What is a class? 
             a css selector
@@ -39,10 +39,10 @@ https://codepen.io/ernie-nettles/pen/wvapLve?editors=1100
             As many times as needed.
 
     13. How do I get my link to open in a new tab?
-            Anchor tags
+            <a href="website" target="_blank">website</a>
 
     14. What is the alt attribute used for? 
-
+                To add a description to an image.
 
     15. How do I reference an id?
             #id {
@@ -50,7 +50,7 @@ https://codepen.io/ernie-nettles/pen/wvapLve?editors=1100
             }
 
     16. What is the difference between a section and a div
-            A section is used for similar content on a page, a div can seperate content even if it's similar.
+            A section is used for similar content on a page, a div can seperate content even if it is similar.
 
     17. What is CSS used for? 
             To style a webpage.
@@ -61,7 +61,7 @@ https://codepen.io/ernie-nettles/pen/wvapLve?editors=1100
             }
 
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
-            You would use an id over a class when you want more specifity within a given element.
+            You would use an id over a class when you want more specifity, and an id should only be used for something that will appear only once on the page.
 
     20. How do we select classes in CSS?
             .class{
@@ -70,7 +70,7 @@ https://codepen.io/ernie-nettles/pen/wvapLve?editors=1100
 
 
     21. How do we select a p element with a single class of “human””?
-            .human p {
+            p.human {
 
             }
 
@@ -95,7 +95,9 @@ https://codepen.io/ernie-nettles/pen/wvapLve?editors=1100
 
 
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
-            text-transform
+            text-transform: lowercase;
+            text-transform: Capitalize;
+            text-transform: uppercase;
 
 
     28. How do I add a 1px border around my div that is dotted and black?
@@ -117,7 +119,7 @@ https://codepen.io/ernie-nettles/pen/wvapLve?editors=1100
 
 
     32. Using the command line - how do I see a list of files/folders in my current folder?
-            $ ls -la
+            $ ls
 
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
             $ rm <file>
@@ -130,7 +132,7 @@ https://codepen.io/ernie-nettles/pen/wvapLve?editors=1100
             About every 20 minutes or when you get a function working.
 
     36. What is the command we would use to push our repo up to github? 
-        $ git push
+        $ git push -u origin "firstname-lastname"
 
     37. Walk me through Lambda's git flow. 
         1. Fork the project
