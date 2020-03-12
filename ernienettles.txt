@@ -79,7 +79,7 @@ https://codepen.io/ernie-nettles/pen/wvapLve?editors=1100
             When you need a child class to inherit something from a parent.
 
     23. How do you select all links within a div with the class of sidebar?
-            .sidebar:link {
+            a.sidebar {
 
             }
 
